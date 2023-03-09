@@ -6,7 +6,6 @@ public class Pipe : MonoBehaviour
 {
     public GameObject PipeGlow;
     public GameObject childPipe;
-    //public bool isHover;
 
     public float RotateTimeSeconds = 2f;
     public float RotateAngleDegrees = 90;
@@ -30,14 +29,12 @@ public class Pipe : MonoBehaviour
     {
         print("Pipe:OnMouseEnter()");
         PipeGlow.SetActive(true);
-        //isHover = true;
     }
 
     void OnMouseExit()
     {
         print("Pipe:OnMouseExit()");
         PipeGlow.SetActive(false);
-        //isHover = false;
     }
 
     private IEnumerator SetRotation()

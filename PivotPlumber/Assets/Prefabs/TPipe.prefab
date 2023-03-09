@@ -402,5 +402,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PipeGlow: {fileID: 1138677212249180967}
   childPipe: {fileID: 3292040688195808527}
-  RotateTimeSeconds: 2
+  RotateTimeSeconds: 0.5
   RotateAngleDegrees: 90

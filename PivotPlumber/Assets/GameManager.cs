@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
         board.transform.position = boardPos;
 
         //Reset the goal
+        score = 0;
         Goal.goalMet = false;
 
         UpdateGUI();
@@ -96,6 +97,12 @@ public class GameManager : MonoBehaviour
         StartLevel();
     }
 
+    public void ResetLevel()
+    {
+        score = 0;
+        StartLevel();
+    }
+
     //Static method that allows code anywhere to increment score
     static public void SCORE_ADD()
     {
@@ -107,4 +114,5 @@ public class GameManager : MonoBehaviour
     {
         return s.board;
     }
+
 }

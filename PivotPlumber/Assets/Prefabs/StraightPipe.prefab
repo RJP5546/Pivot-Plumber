@@ -220,7 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PipeGlow: {fileID: 2008933878032561007}
   childPipe: {fileID: 8552278468117700669}
-  RotateTimeSeconds: 2
+  RotateTimeSeconds: 0.5
   RotateAngleDegrees: 90
 --- !u!1 &8552278468117700669 stripped
 GameObject:

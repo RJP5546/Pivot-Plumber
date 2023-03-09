@@ -178,22 +178,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6, y: 6, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4525031940292082530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6877577292840989013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 849b88e8c25b6434c82d56336f120094, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PipeGlow: {fileID: 48649187734893040}
-  childPipe: {fileID: 2521976189966813580}
-  RotateTimeSeconds: 2
-  RotateAngleDegrees: 90
 --- !u!64 &6455314846853552845
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -208,3 +192,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 14b3b0da532ec36459f446e52932489c, type: 3}
+--- !u!114 &4525031940292082530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6877577292840989013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849b88e8c25b6434c82d56336f120094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PipeGlow: {fileID: 48649187734893040}
+  childPipe: {fileID: 2521976189966813580}
+  RotateTimeSeconds: 0.5
+  RotateAngleDegrees: 90
